@@ -1,0 +1,98 @@
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Conda and virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Raw datasets
+/dataset/
+/Dataset-Project 3-Updated/
+
+# Generated outputs and large release files
+/outputs/
+/release_candidate_1/
+/release_candidate_1.zip
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Credentials
+*.pem
+*.key
+*credentials*.json
+*secret*.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+
+# Microsoft Word temporary files
+~$*
+**/~$*
+
+# Intermediate paper drafts
+/paper/draft_*.docx
+/paper/full_draft_v1_week6.docx
+
+# Intermediate documentation parts
+/documentation/SHM_documentation_part*.docx
+
+# Temporary test image
+/external_test.jpg
+
+# Backup and experimental notebook artifacts
+*backup.py
+
+
+# Intermediate research experiments
+/week1_*.py
+/week2_*.py
+/week3_*.py
+/week4_*.py
+/week5_*.py
+/week6_*.py
+
+# Original exploratory notebook
+/SHM_project3.ipynb
+
+# Previous model configurations and experiments
+/configs/language_merger*.yaml
+/configs/qwen35_*.yaml
+/configs/vision_all_lora*.yaml
+/configs/week3_*.yaml
+/configs/week4_*.yaml
+/configs/week5_*.yaml
+
+# Old implementations and backup files
+/src/*before*.py
+/src/*baseline*.py
+/src/*backup*.py
+/src/evaluate_resnet18_test.py
+
+# Intermediate documentation generation
+/documentation/build_documentation.py
+/documentation/generate_fig3.py
+
+# Draft research paper
+/paper/
+
+# Standalone data-splitting script
+/make_full90_split.py
